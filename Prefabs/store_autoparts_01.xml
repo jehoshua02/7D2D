@@ -7,9 +7,11 @@
     <property name="AllowedTownships" value="town,rural" />
     <property name="Condition" value="New" />
     <property name="YOffset" value="-1" />
-    <property name="StaticSpawner.Class" value="SpawnMedium" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="160" />
     <property name="MaxPerHub" value="1" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="wasteland,plains,forest,pine_forest,desert,snow,burnt_forest,water,city" />
+    <property name="StaticSpawner.Class" value="SpawnLarge" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

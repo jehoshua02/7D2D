@@ -11,4 +11,9 @@
     <property name="MaxPerHub" value="1" />
     <property name="YOffset" value="-8" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="wasteland,wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="plains,forest,pine_forest,desert,snow,burnt_forest,water,city" />
+    <property name="StaticSpawner.Class" value="Zombie_Utility_Worker_Med_Territorial" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

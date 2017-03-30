@@ -10,4 +10,6 @@
     <property name="TraderAreaProtect" value="20,0,20" />
     <property name="TraderAreaTeleportSize" value="36, 20, 36" />
     <property name="TraderAreaTeleportCenter" value="1, 1, 1" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest,desert,burnt_forest,water,wasteland" />
+    <property name="DisallowedBiomes" value="wasteland_hub,city_wasteland,snow,city" />
 </prefab>

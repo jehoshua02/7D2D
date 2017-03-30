@@ -5,10 +5,10 @@
     <property name="Zoning" value="Industrial" />
     <property name="AllowedTownships" value="rural" />
     <property name="YOffset" value="-3" />
-    <property name="AllowedBiomes" value="wasteland" />
     <property name="Condition" value="Old" />
-    <property name="StaticSpawner.Class" value="SpawnMedium" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="64" />
-    <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="desert,wasteland,wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="plains,forest,pine_forest,snow,burnt_forest,water,city" />
+    <property name="StaticSpawner.Class" value="SpawnLarge" />
+    <property name="StaticSpawner.Size" value="64,10,64" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

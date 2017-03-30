@@ -6,7 +6,9 @@
     <property name="YOffset" value="-1" />
     <property name="AllowedTownships" value="city,town,rural" />
     <property name="Condition" value="Old" />
+    <property name="AllowedBiomes" value="wasteland,wasteland_hub,city_wasteland,burnt_forest" />
+    <property name="DisallowedBiomes" value="desert,plains,forest,pine_forest,snow,water,city" />
     <property name="StaticSpawner.Class" value="SpawnExtraSmall" />
-    <property name="StaticSpawner.Size" value="20,2,20" />
-    <property name="StaticSpawner.Trigger" value="120" />
+    <property name="StaticSpawner.Size" value="32,2,32" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

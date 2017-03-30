@@ -8,7 +8,8 @@
     <property name="AllowedTownships" value="town,rural" />
     <property name="Condition" value="Old" />
     <property name="AllowedBiomes" value="burnt_forest" />
+    <property name="DisallowedBiomes" value="plains,forest,pine_forest,snow,desert,wasteland,wasteland_hub,city_wasteland,water,city" />
     <property name="StaticSpawner.Class" value="SpawnExtraSmall" />
-    <property name="StaticSpawner.Size" value="20,2,20" />
-    <property name="StaticSpawner.Trigger" value="120" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

@@ -353,12 +353,7 @@
 <lootgroup name="empty"/>
 
 <lootgroup name="questChallenge" count="1">
-	<item name="qc_silenceofthelambs" count="1"/>
 	<item name="qc_drunkanddisorderly" count="1"/>
-	<item name="qc_nurseyoubacktohealth" count="1"/>
-	<item name="qc_copanattitude" count="1"/>
-	<item name="qc_dogdaysareover" count="1"/>
-	<item name="qc_itsbitsyspider" count="1"/>
 	<item name="qc_ladykiller" count="1"/>
 	<item name="qc_maneater" count="1"/>
 	<item name="qc_imalumberjackandimokay" count="1"/>
@@ -638,15 +633,15 @@
 
 <lootgroup name="rocketLauncher+ammo" count="all">
 	<item name="gunRocketLauncher"/>
-	<item name="rocket" count="2,6"/>
+	<item name="rocket" count="1,2"/>
 </lootgroup>
 
 <lootgroup name="guns+ammo">
-	<item group="commonWeaponParts"/>
-	<item group="pistol+ammo" prob="0.01"/>
-	<item group="shotgun+ammo" prob="0.01"/>
-	<item group="huntingRifle+ammo" prob="0.01"/>
-	<item group="magnumparts" prob="0.03"/>
+	<item group="pistol+ammo" prob="0.9"/>
+	<item group="huntingRifle+ammo" prob="0.6"/>
+	<item group="shotgun+ammo" prob="0.4"/>
+	<item group="sniperRifle+ammo" prob="0.1"/>
+	<item group="mp5+ammo" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="melee">
@@ -741,16 +736,16 @@
 
 <lootgroup name="militaryguns+ammo">
 	<item group="militaryWeaponParts"/>
-	<item group="mp5+ammo" prob="0.03"/>
-	<item group="sniperRifle+ammo" prob="0.03"/>
-	<item group="rocketLauncher+ammo" prob="0.01"/>
+	<item group="mp5+ammo" prob="0.6"/>
+	<item group="sniperRifle+ammo" prob="0.3"/>
+	<item group="rocketLauncher+ammo" prob="0.1"/>
 </lootgroup>
 
 <lootgroup name="militaryammo">
 	<item name="10mmBullet" count="10,40"/>
 	<item name="762mmBullet" count="5,30"/>
 	<item name="shotgunSlug" count="3,7"/>
-	<item name="rocket" count="1,4"/>
+	<item name="rocket" count="1,2"/>
 </lootgroup>
 
 <lootgroup name="treasureAmmo">
@@ -1133,10 +1128,10 @@
 <lootgroup name="backpacks">
 	<item group="commonWeaponParts"/>
 	<item group="cupboard"/>
-	<item group="guns+ammo" prob="0.5"/>
+	<item group="guns+ammo" prob="0.2"/>
 	<item group="melee" prob="0.5"/>
 	<item group="Armor" prob="0.5"/>
-	<item name="flashlight02" prob="0.3"/>
+	<item name="flashlight02" prob="0.5"/>
 </lootgroup>
 
 <lootgroup name="airdropMedicine">
@@ -1378,12 +1373,14 @@
 </lootcontainer>
 
 <!-- lootcontainer 35 tree hollowed stump, place where people stash things, -->
-<lootcontainer id="35" count="0,2" size="4,3" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="baseTemplate">
-	<item group="guns+ammo"/>
-	<item group="sportingGoods" count="1,2" prob="5"/>
-	<item name="foodHoney"/>
-	<item group="cannedfood"/>
-	<item group="medicine"/>
+<lootcontainer id="35" count="1,3" size="4,3" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="baseTemplate">
+	<item name="wood"/>
+	<item name="mushrooms"/>
+	<item name="mushroomSeed"/>
+	<item name="feather"/>
+	<item name="egg"/>
+	<item name="mapleSeed"/>
+	<item name="pineSeed"/>
 </lootcontainer>
 
 <!-- lootcontainer 36 suitcase -->

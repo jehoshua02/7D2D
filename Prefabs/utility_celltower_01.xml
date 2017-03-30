@@ -5,10 +5,12 @@
     <property name="Zoning" value="Commercial" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="wilderness,rural,town,city" />
-    <property name="StaticSpawner.Class" value="Zombie_Utility_Worker_Sm_Territorial" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="160" />
     <property name="MaxPerHub" value="1" />
     <property name="YOffset" value="-1" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest,desert,snow,burnt_forest,water,city,wasteland,wasteland_hub,city_wasteland" />
+<!--    <property name="DisallowedBiomes" value="" /> -->
+    <property name="StaticSpawner.Class" value="Zombie_Utility_Worker_Sm_Territorial" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

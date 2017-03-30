@@ -420,7 +420,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="bedroll" count="1">
-	<ingredient name="yuccaFibers" count="20"/>
+	<ingredient name="leather" count="20"/>
+	<ingredient name="cottonPlant" count="40"/>
 </recipe>
 
 <recipe name="bellows" count="1">
@@ -2399,7 +2400,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="signShopColdBeer" count="1">
-	<ingredient name="nail" count="4"/>
 	<ingredient name="wood" count="5"/>
 </recipe>
 

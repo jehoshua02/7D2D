@@ -5,10 +5,12 @@
     <property name="Zoning" value="Residential" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="rural,town,wilderness" />
-    <property name="StaticSpawner.Class" value="SpawnSmall" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="160" />
     <property name="MaxPerHub" value="1" />
     <property name="YOffset" value="-10" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="desert,burnt_forest,wasteland,wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="plains,forest,pine_forest,snow,water,city" />
+    <property name="StaticSpawner.Class" value="SpawnMedium" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

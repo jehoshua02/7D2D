@@ -3,7 +3,10 @@
     <property name="CopyAirBlocks" value="True" />
     <property name="AllowTopSoilDecorations" value="False" />
     <property name="Zoning" value="Commercial" />
-    <property name="AllowedBiomes" value="wasteland_hub" />
-    <property name="AllowedTownships" value="city" />
-    <property name="MaxPerHub" value="1" />
+    <property name="AllowedTownships" value="city,town" />
+    <property name="AllowedBiomes" value="wasteland,wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="desert,plains,forest,pine_forest,snow,burnt_forest,water,city" />
+    <property name="StaticSpawner.Class" value="SpawnLarge" />
+    <property name="StaticSpawner.Size" value="64,20,64" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>
