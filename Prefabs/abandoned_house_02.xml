@@ -6,4 +6,9 @@
     <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-1" />
     <property name="AllowedTownships" value="town,rural,wilderness" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest,desert,snow,burnt_forest,wasteland,water,city" />
+    <property name="DisallowedBiomes" value="wasteland_hub,city_wasteland" />
+    <property name="StaticSpawner.Class" value="SpawnExtraSmall" />
+    <property name="StaticSpawner.Size" value="48,10,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

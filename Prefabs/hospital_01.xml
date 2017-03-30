@@ -3,4 +3,10 @@
     <property name="CopyAirBlocks" value="False" />
     <property name="AllowTopSoilDecorations" value="False" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedTownships" value="city,town" />
+    <property name="AllowedBiomes" value="plains,forest" />
+    <property name="DisallowedBiomes" value="pine_forest,desert,snow,burnt_forest,water,city,wasteland,wasteland_hub,city_wasteland" />
+    <property name="StaticSpawner.Class" value="SpawnExLarge" />
+    <property name="StaticSpawner.Size" value="64,60,64" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

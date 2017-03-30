@@ -4,4 +4,5 @@
     <property name="AllowTopSoilDecorations" value="False" />
     <property name="RotationToFaceNorth" value="1" />
     <property name="AllowedTownships" value="town" />
+    <property name="YOffset" value="-1" />
 </prefab>

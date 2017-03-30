@@ -6,8 +6,10 @@
     <property name="YOffset" value="-2" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="town,rural" />
-    <property name="StaticSpawner.Class" value="SpawnSmall" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="160" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest,desert,snow,burnt_forest,water,city,wasteland" />
+    <property name="DisallowedBiomes" value="wasteland_hub,city_wasteland" />
+    <property name="StaticSpawner.Class" value="SpawnMedium" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="100" />
 </prefab>

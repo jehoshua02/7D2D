@@ -6,10 +6,11 @@
     <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-1" />
     <property name="AllowedTownships" value="town,rural,wilderness" />
-    <property name="AllowedBiomes" value="desert" />
     <property name="Condition" value="Old" />
+    <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="desert,wasteland,burnt_forest" />
+    <property name="DisallowedBiomes" value="wasteland_hub,city_wasteland,plains,forest,pine_forest,snow,water,city" />
     <property name="StaticSpawner.Class" value="Zombie_Ghost_Town_Sm_Territorial" />
     <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="64" />
-    <property name="TraderArea" value="False" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

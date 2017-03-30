@@ -5,9 +5,10 @@
     <property name="Zoning" value="Commercial" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="AllowedTownships" value="rural" />
-    <property name="AllowedBiomes" value="snow" />
-    <property name="StaticSpawner.Class" value="SpawnSnowMedium" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="160" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="plains,forest,pine_forest,snow,city" />
+    <property name="DisallowedBiomes" value="desert,wasteland,wasteland_hub,city_wasteland,burnt_forest,water" />
+    <property name="StaticSpawner.Class" value="SpawnExLarge" />
+    <property name="StaticSpawner.Size" value="48,10,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

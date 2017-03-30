@@ -8,8 +8,10 @@
     <property name="AllowedTownships" value="rural,wilderness" />
     <property name="Age" value="Old" />
     <property name="Condition" value="Normal" />
-    <property name="StaticSpawner.Class" value="Zombie_Soldier_Med_Territorial" />
-    <property name="StaticSpawner.Size" value="32,2,32" />
-    <property name="StaticSpawner.Trigger" value="64" />
     <property name="TraderArea" value="False" />
+    <property name="AllowedBiomes" value="desert,snow,burnt_forest,wasteland,city,wasteland_hub,city_wasteland" />
+    <property name="DisallowedBiomes" value="plains,forest,pine_forest,water" />
+    <property name="StaticSpawner.Class" value="Zombie_Soldier_Med_Territorial" />
+    <property name="StaticSpawner.Size" value="48,2,48" />
+    <property name="StaticSpawner.Trigger" value="150" />
 </prefab>

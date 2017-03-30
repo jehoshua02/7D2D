@@ -2,4 +2,5 @@
 <prefab>
     <property name="CopyAirBlocks" value="True" />
     <property name="AllowTopSoilDecorations" value="False" />
+    <property name="YOffset" value="-1" />
 </prefab>
