@@ -12,8 +12,8 @@
 	<cell_rules>
 		<cell_rule name="Urban Center">
 			<cave_count value="1,3"/>
-            <path_material value="asphalt" />
-            <path_radius value="7" />
+						<path_material value="asphalt" />
+						<path_radius value="7" />
 
 			<hub_rule name="CityGigantic"/>
 
@@ -32,15 +32,15 @@
 	</cell_rules>
 
 	<hub_rules>
-        <hub_rule name="CityGigantic">
-            <hub_type value="city"/>
-            <width value="2800, 2800" />
-            <height value="2800, 2800" />
-            <path_material value="asphalt" />
-            <path_radius value="7" />
+		<hub_rule name="CityGigantic">
+			<hub_type value="city"/>
+			<width value="2800, 2800" />
+			<height value="2800, 2800" />
+			<path_material value="asphalt" />
+			<path_radius value="7" />
 
-            <prefab_rule name="HAHAHAHAHAHCHANGEME" prob="1"/>
-        </hub_rule>
+			<prefab_rule name="CityGiganticPrefabs" prob="1"/>
+		</hub_rule>
 
 		<hub_rule name="CrossTown1">
 			<hub_type value="rural"/>
@@ -121,98 +121,98 @@
 			<prefab rule="Cabins" 								prob="3"/>
 		</prefab_rule>
 
-        <prefab_rule name="HAHAHAHAHAHCHANGEME">
-            <prefab rule="cityBlocks" lot_type="CityBlock"/>
-        </prefab_rule>
+				<prefab_rule name="HAHAHAHAHAHCHANGEME">
+						<prefab rule="cityBlocks" lot_type="CityBlock"/>
+				</prefab_rule>
 
-        <prefab_rule name="cityBlocks">
-            <prefab name="rg_waste_hub_blk_quartered" max_count="4" prob="0.9"/>
-            <prefab name="rg_waste_hub_blk_half"  max_count="4" prob="0.9"/>
-            <prefab name="rg_waste_hub_blk_t"  max_count="4" prob="0.9"/>
-            <prefab name="rg_waste_hub_blk_full"  max_count="4" prob="0.9"/>
+				<prefab_rule name="cityBlocks">
+						<prefab name="rg_waste_hub_blk_quartered" max_count="4" prob="0.9"/>
+						<prefab name="rg_waste_hub_blk_half"  max_count="4" prob="0.9"/>
+						<prefab name="rg_waste_hub_blk_t"  max_count="4" prob="0.9"/>
+						<prefab name="rg_waste_hub_blk_full"  max_count="4" prob="0.9"/>
 
-            <prefab rule="parking" max_count="4"/>
-            <prefab rule="rubbleBuildingsWhite" max_count="4" prob="0.9"/>
-            <prefab rule="rubbleBuildingsRed" max_count="4" prob="0.9"/>
-            <prefab rule="rubbleBuildingsTan" max_count="4" prob="0.9"/>
-            <prefab rule="rubbleBuildingsGrey" max_count="4" prob="0.9"/>
-            <prefab rule="rubbleBuildingsWaste"/>
+						<prefab rule="parking" max_count="4"/>
+						<prefab rule="rubbleBuildingsWhite" max_count="4" prob="0.9"/>
+						<prefab rule="rubbleBuildingsRed" max_count="4" prob="0.9"/>
+						<prefab rule="rubbleBuildingsTan" max_count="4" prob="0.9"/>
+						<prefab rule="rubbleBuildingsGrey" max_count="4" prob="0.9"/>
+						<prefab rule="rubbleBuildingsWaste"/>
 
-            <prefab rule="gunStores" max_count="2"/>
-            <prefab rule="pharmacies" max_count="1"/>
-            <prefab rule="hardwareStores" max_count="2"/>
-            <prefab rule="bookStores" max_count="2"/>
-            <prefab rule="groceryStores" max_count="2"/>
-            <prefab rule="banks" max_count="1"/>
-            <prefab rule="bars" max_count="1"/>
-            <prefab rule="funeral_homes" max_count="1" />
-            <prefab rule="bandit_settlements" max_count="1"/>
+						<prefab rule="gunStores" max_count="2"/>
+						<prefab rule="pharmacies" max_count="1"/>
+						<prefab rule="hardwareStores" max_count="2"/>
+						<prefab rule="bookStores" max_count="2"/>
+						<prefab rule="groceryStores" max_count="2"/>
+						<prefab rule="banks" max_count="1"/>
+						<prefab rule="bars" max_count="1"/>
+						<prefab rule="funeral_homes" max_count="1" />
+						<prefab rule="bandit_settlements" max_count="1"/>
 
-            <prefab rule="governmentOffices" max_count="2"/>
-            <prefab rule="entertainment" max_count="1"/>
-            <prefab rule="apartments" max_count="4"/>
-            <prefab rule="gasStations" max_count="1"/>
-            <prefab rule="diners" max_count="1"/>
-            <prefab rule="hotels" max_count="1"/>
-            <prefab rule="carlots" max_count="1"/>
+						<prefab rule="governmentOffices" max_count="2"/>
+						<prefab rule="entertainment" max_count="1"/>
+						<prefab rule="apartments" max_count="4"/>
+						<prefab rule="gasStations" max_count="1"/>
+						<prefab rule="diners" max_count="1"/>
+						<prefab rule="hotels" max_count="1"/>
+						<prefab rule="carlots" max_count="1"/>
 
-            <prefab name="store_gun_sm_01" max_count="2"/>
-            <prefab name="store_gun_lg_01" max_count="2"/>
-            <prefab name="store_pharmacy_sm_01" max_count="2"/>
-            <prefab name="store_hardware_sm_01" max_count="2"/>
-            <prefab name="store_hardware_lg_01" max_count="2"/>
-            <prefab name="store_book_sm_01" max_count="2"/>
-            <prefab name="store_book_lg_01" max_count="2"/>
-            <prefab name="store_grocery_lg_01" max_count="2"/>
-            <prefab name="store_grocery_sm_01" max_count="2"/>
-            <prefab name="store_bank_lg_01" max_count="2"/>
-            <prefab name="store_autoparts_01" max_count="2"/>
-            <prefab name="factory_lg_01" max_count="2"/>
-            <prefab name="factory_lg_02" max_count="2"/>
-            <prefab name="utility_waterworks_01" max_count="2"/>
-            <prefab name="utility_electric_co_01" max_count="2"/>
-            <prefab name="utility_refinery_01" max_count="2"/>
-            <prefab name="installation_red_mesa" max_count="2"/>
-            <prefab name="police_station1" max_count="2"/>
-            <prefab name="prison_01" max_count="2"/>
-            <prefab name="hospital_01" max_count="2"/>
-            <prefab name="school_01" max_count="2"/>
-            <prefab name="theater_01" max_count="2"/>
-            <prefab name="bar_theater_01" max_count="2"/>
-            <prefab name="skate_park_01" max_count="2"/>
-            <prefab name="bar_stripclub_01" max_count="2"/>
-            <prefab name="bar_sm_01" max_count="2"/>
-            <prefab name="funeral_home_01" max_count="2"/>
-            <prefab name="carlot_01" max_count="2"/>
-            <prefab name="carlot_02" max_count="2"/>
-            <prefab name="junkyard_lg_01" max_count="2"/>
+						<prefab name="store_gun_sm_01" max_count="2"/>
+						<prefab name="store_gun_lg_01" max_count="2"/>
+						<prefab name="store_pharmacy_sm_01" max_count="2"/>
+						<prefab name="store_hardware_sm_01" max_count="2"/>
+						<prefab name="store_hardware_lg_01" max_count="2"/>
+						<prefab name="store_book_sm_01" max_count="2"/>
+						<prefab name="store_book_lg_01" max_count="2"/>
+						<prefab name="store_grocery_lg_01" max_count="2"/>
+						<prefab name="store_grocery_sm_01" max_count="2"/>
+						<prefab name="store_bank_lg_01" max_count="2"/>
+						<prefab name="store_autoparts_01" max_count="2"/>
+						<prefab name="factory_lg_01" max_count="2"/>
+						<prefab name="factory_lg_02" max_count="2"/>
+						<prefab name="utility_waterworks_01" max_count="2"/>
+						<prefab name="utility_electric_co_01" max_count="2"/>
+						<prefab name="utility_refinery_01" max_count="2"/>
+						<prefab name="installation_red_mesa" max_count="2"/>
+						<prefab name="police_station1" max_count="2"/>
+						<prefab name="prison_01" max_count="2"/>
+						<prefab name="hospital_01" max_count="2"/>
+						<prefab name="school_01" max_count="2"/>
+						<prefab name="theater_01" max_count="2"/>
+						<prefab name="bar_theater_01" max_count="2"/>
+						<prefab name="skate_park_01" max_count="2"/>
+						<prefab name="bar_stripclub_01" max_count="2"/>
+						<prefab name="bar_sm_01" max_count="2"/>
+						<prefab name="funeral_home_01" max_count="2"/>
+						<prefab name="carlot_01" max_count="2"/>
+						<prefab name="carlot_02" max_count="2"/>
+						<prefab name="junkyard_lg_01" max_count="2"/>
 
-            <prefab name="mp_waste_bldg_01_white" max_count="1"/>
-            <prefab name="mp_waste_bldg_03_white" max_count="1"/>
-            <prefab name="mp_waste_bldg_04_white" max_count="1"/>
-            <prefab name="mp_waste_bldg_01_red"	max_count="1"/>
-            <prefab name="mp_waste_bldg_02_red"	max_count="1"/>
-            <prefab name="mp_waste_bldg_03_red"	max_count="1"/>
-            <prefab name="mp_waste_bldg_04_red"	max_count="1"/>
-            <prefab name="mp_waste_bldg_01_tan"	max_count="1"/>
-            <prefab name="mp_waste_bldg_02_tan"	max_count="1"/>
-            <prefab name="mp_waste_bldg_03_tan"	max_count="1"/>
-            <prefab name="mp_waste_bldg_04_tan"	max_count="1"/>
-            <prefab name="mp_waste_bldg_05_grey" max_count="1"/>
-            <prefab name="mp_waste_bldg_05_grey" max_count="1"/>
-            <prefab name="mp_waste_bldg_06_grey" max_count="1"/>
+						<prefab name="mp_waste_bldg_01_white" max_count="1"/>
+						<prefab name="mp_waste_bldg_03_white" max_count="1"/>
+						<prefab name="mp_waste_bldg_04_white" max_count="1"/>
+						<prefab name="mp_waste_bldg_01_red"	max_count="1"/>
+						<prefab name="mp_waste_bldg_02_red"	max_count="1"/>
+						<prefab name="mp_waste_bldg_03_red"	max_count="1"/>
+						<prefab name="mp_waste_bldg_04_red"	max_count="1"/>
+						<prefab name="mp_waste_bldg_01_tan"	max_count="1"/>
+						<prefab name="mp_waste_bldg_02_tan"	max_count="1"/>
+						<prefab name="mp_waste_bldg_03_tan"	max_count="1"/>
+						<prefab name="mp_waste_bldg_04_tan"	max_count="1"/>
+						<prefab name="mp_waste_bldg_05_grey" max_count="1"/>
+						<prefab name="mp_waste_bldg_05_grey" max_count="1"/>
+						<prefab name="mp_waste_bldg_06_grey" max_count="1"/>
 
-            <prefab name="mp_waste_bldg_03_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_06_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_07_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_ornate_01_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_ornate_02_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_ornate_03_intact" max_count="2"/>
-            <prefab name="mp_waste_bldg_governer_08" max_count="2"/>
-            <prefab name="apartment_adobe_red_5_flr" max_count="2"/>
-            <prefab name="apartment_brick_6_flr" max_count="2"/>
-            <prefab name="hotel_ostrich" max_count="2"/>
-        </prefab_rule>
+						<prefab name="mp_waste_bldg_03_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_06_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_07_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_ornate_01_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_ornate_02_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_ornate_03_intact" max_count="2"/>
+						<prefab name="mp_waste_bldg_governer_08" max_count="2"/>
+						<prefab name="apartment_adobe_red_5_flr" max_count="2"/>
+						<prefab name="apartment_brick_6_flr" max_count="2"/>
+						<prefab name="hotel_ostrich" max_count="2"/>
+				</prefab_rule>
 
 		<prefab_rule name="WastePOIs">
 			<path_material value="asphalt" />
@@ -686,39 +686,39 @@
 
 <!--
 	GENERATOR MODULE TYPES
-	    AbsoluteOutput
-        Add
-        BiasOutput
-        Blend
-        ClampOutput
-        CurveOutput
-        DisplaceInput
-        ExponentialOutput
-        InvertInput
-        InvertOutput
-        LargerOutput
-        Multiply
-        Power
-        RotateInput
-        ScaleBiasOutput
-        ScaleInput
-        ScaleOutput
-        Select
-        SmallerOutput
-        Terrace
-        TranslateInput
-        Billow
-        Checkerboard
-        Constant
-        FastBillow
-        FastNoise
-        FastNoiseBasis
-        FastRidgedMultifractal
-        FastTurbulence
-        GradientNoiseBasis
-        RidgedMultifractal
-        Turbulence
-        Voronoi
+			AbsoluteOutput
+				Add
+				BiasOutput
+				Blend
+				ClampOutput
+				CurveOutput
+				DisplaceInput
+				ExponentialOutput
+				InvertInput
+				InvertOutput
+				LargerOutput
+				Multiply
+				Power
+				RotateInput
+				ScaleBiasOutput
+				ScaleInput
+				ScaleOutput
+				Select
+				SmallerOutput
+				Terrace
+				TranslateInput
+				Billow
+				Checkerboard
+				Constant
+				FastBillow
+				FastNoise
+				FastNoiseBasis
+				FastRidgedMultifractal
+				FastTurbulence
+				GradientNoiseBasis
+				RidgedMultifractal
+				Turbulence
+				Voronoi
 
 -->
 
