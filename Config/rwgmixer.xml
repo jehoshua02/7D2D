@@ -121,7 +121,7 @@
 			<prefab rule="Cabins" 								prob="3"/>
 		</prefab_rule>
 
-				<prefab_rule name="HAHAHAHAHAHCHANGEME">
+				<prefab_rule name="CityGiganticPrefabs">
 						<prefab rule="cityBlocks" lot_type="CityBlock"/>
 				</prefab_rule>
 
